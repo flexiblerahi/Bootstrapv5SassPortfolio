@@ -1,0 +1,24 @@
+{
+  "name": "v5portfolio",
+  "version": "1.0.0",
+  "description": "To study the concept of Bootstrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap-v5",
+    "sass"
+  ],
+  "author": "rahi",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.37.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.3.1",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
